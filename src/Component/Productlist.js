@@ -44,7 +44,7 @@ function Productlist() {
                                             <img src={`http://127.0.0.1:8000/storage/${pdata.image}`} className="card-img-top" alt={pdata.name} height={200} style={{ objectFit: 'cover' }} />
                                             <div className="card-body">
                                                 <h5 className="card-title text-white">{pdata.name}</h5>
-                                                <p className="card-text text-white">{pdata.description}</p>
+                                                <p className="card-text  text-white ">{pdata.description}</p>
                                                 <Link to={`/editproduct/${pdata.id}/edit`} className="btn btn-success mx-2">Edit</Link>
                                                 <button onClick={() => deleteProduct(pdata.id)} className="btn btn-danger">Delete</button>
                                             </div>
