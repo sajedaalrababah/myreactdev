@@ -10,12 +10,12 @@ git@github.com:sajedaalrababah/myreactdev.git
 
 2. Install node package
 ```
-cd react-js-crud
+cd myreactdev
 $ npm install
 ```
 2. Runs the app
 ```
-cd react-js-crud
+cd myreactdev
 $ npm start
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ```
