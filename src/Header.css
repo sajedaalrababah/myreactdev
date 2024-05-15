@@ -1,0 +1,27 @@
+.navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-brand {
+    color: white;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  .nav-link {
+    position: relative;
+  }
+  
+  .nav-link:hover {
+    color: orange; /* تغيير لون النص عند تحويل الماوس على الرابط */
+  }
+  
+  .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: orange; /* تغيير لون الخط السفلي عند تحويل الماوس على الرابط */
+  }
+  

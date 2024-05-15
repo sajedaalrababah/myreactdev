@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+
+.App {
+  background-color: black; /* تعيين لون الخلفية إلى الأسود */
+  color: white; /* تعيين لون النص إلى الأبيض (اختياري إذا كنت ترغب في تغيير لون النص أيضًا) */
+  min-height: 100vh; /* جعل العنصر يمتلك ارتفاعًا على الأقل يملئ الشاشة بالكامل */
+}
+
+
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #514c4c !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+}

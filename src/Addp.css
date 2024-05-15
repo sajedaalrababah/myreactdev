@@ -1,0 +1,29 @@
+.main{color: #b3a3a3;overflow-x: hidden;height: 100%;background-image: url("https://img.freepik.com/free-vector/shiny-golden-wave-black-background_23-2148404967.jpg?t=st=1715725306~exp=1715728906~hmac=96c9f93c0efc0c629b9e048181effb244783593b22db74e1c4aa8b8934d9c329&w=996");background-repeat: no-repeat;background-size: 100% 100%}
+.card {
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 0.541);
+    background-color: rgba(14, 12, 12, 0.7); /* لون خلفية مع شفافية */
+}
+
+label {
+    color: #ffffff; /* اللون الأبيض */
+}
+h3 {
+    color: #ffffff; /* لون الخط الأبيض */
+}
+.form-control-label{margin-bottom: 0}
+input, textarea, button{padding: 8px 15px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #d8c1c1;font-size: 18px !important;font-weight: 300}
+input:focus, textarea:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}
+
+button:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0}
+.btn {
+    color: #ffffff; /* لون النص الأبيض */
+    background-color: #ff7f00; /* لون الزر البرتقالي */
+}
+
+.btn:hover {
+    background-color: #c1baac; /* لون الزر البرتقالي عند التحويم */
+}
