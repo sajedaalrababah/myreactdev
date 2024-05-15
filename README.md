@@ -5,7 +5,7 @@ Its not difficult to create a CRUD application using react js.
 # Installation
 1. Clone this repo
 ```
-
+git@github.com:sajedaalrababah/myreactdev.git
 ```
 
 2. Install node package
